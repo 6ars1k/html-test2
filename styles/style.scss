@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap&subset=cyrillic,cyrillic-ext');
+html{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin: 0;
+}
+p{
+  margin: 0;
+}
+.center{
+  margin: auto;
+}
+body{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  line-height:22px;
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+}
+.width-margen{
+  width: 980px;
+  margin: 0 10px;
+ }
+header{
+  background-color: rgb(220,220,220);
+
+}
+.head-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 65px 0;
+}
+.top-left{
+  display: flex;
+}
+.head-text{
+  margin-left: 15px;
+  color: rgb(119,119,119);
+  h1{
+   font-size: 36px;
+
+    margin: 11px 0;
+  }
+  p{
+    margin-top: 22px;
+  }
+}
+.top-right{
+  font-size: 40px;
+  color: rgb(118,118,118);
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 40px;
+}
+.top-menu{
+  background-color: rgb(119,119,119);
+}
+.top-menu-li{
+  margin: 25px 22px;
+  list-style: none;
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+  }
+  hr{
+    border:         none;
+    border-left:    3px solid rgb(255,255,255);
+    height:         100%;
+    margin: 0;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+.top-menu-li:nth-child(1){
+  margin-left: 0px;
+}
+.top-menu-li:nth-child(2n){
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.top-menu-ul{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.slider{
+  display: flex;
+  margin: auto;
+
+}
+.slider-img{
+  display: block;
+  margin: auto;
+  height: 400px;
+  min-width: 980px;
+}
+main{
+  display: flex;
+  width: 980px;
+  margin: 0 10px;
+  margin-top: 30px;
+
+}
+.news{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(119,119,119);
+}
+.nw-t{
+  margin-left: 30px;
+  margin-right: 75px;
+  margin-top: 25px;
+  color: white;
+}
+.news-title{
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.news-link{
+  margin-top: 35px;
+  margin-right: 35px;
+  text-align: right;
+  color: white;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+  margin-left: 60px;
+  color: rgb(118,118,118);
+}
+.content-title{
+  margin: 0;
+  margin-top: 20px;
+}
+.content-text{
+  margin-top: 30px;
+}
+footer{
+  margin-top: 200px;
+  background-color: rgb(119,119,119) ;
+  color: white;
+}
+footer .width-margen{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px ;
+  padding-top: 50px;
+}
+.foo-nemu{
+  li {
+    list-style: none;
+  }
+  a {
+    color: white;
+  }
+}
+.foo-logo{
+  display: flex;
+  p{
+    margin: 0;
+    a{
+      color: white;
+    }
+  }
+}
